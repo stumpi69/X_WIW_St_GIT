@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X_WIW_St.MainPage">
+    <NavigationPage.TitleView>
+        <Label VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  Text="Kezdőlap" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="32" TextColor="Yellow" FontAttributes="Bold" />
+    </NavigationPage.TitleView>
+    <StackLayout>
+        <Button Text="Aktuális helyzet" Clicked="Button_Clicked" ImageSource="" />
+    </StackLayout>
+
+</ContentPage>
